@@ -6,11 +6,4 @@
    h: [43.0, 44.1, 44.8, 44.5],
    l: [40.4, 42.1, 42.8, 42.3],
    v: [12000, 18500, 24000, 45000]
-},
-{
-    supported_resolutions: ['1', '5', '15', '30', '60', '1D', '1W', '1M'],
-    supports_group_request: true,
-    supports_marks: false,
-    supports_search: false,
-    supports_timescale_marks: false,
 }
