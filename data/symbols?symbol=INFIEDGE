@@ -11,6 +11,10 @@
 "description": "INFINITY",
 "type": "crypto",
 "supported_resolutions": [
+"1",
+"5",
+"15",
+"60",
 "D",
 "2D",
 "3D",
