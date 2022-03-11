@@ -8,12 +8,12 @@
       {"INFIEDGE": 
           {
               "name": "INFIEDGE",
-              "exchange-traded": "",
-              "timezone": "America/New_York",
+              "exchange-traded": "INFINITY_EXCHANGE",
+              "timezone": "Europe/Paris",
               "minmov": 1,
               "minmov2": 0,
               "pointvalue": 1,
-              "session": "0000-0000",
+              "session": "7x24",
               "has_intraday": false,
               "has_no_volume": false,
               "description": "INFINITY",
