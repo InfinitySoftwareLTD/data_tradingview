@@ -1,6 +1,17 @@
 {
   "config": [
-    { "supports_search":true,"supports_group_request":false,"supports_marks":true,"supports_timescale_marks":true,"supports_time":true,"exchanges":[{"value":"","name":"All Exchanges","desc":""},{"value":"NasdaqNM","name":"NasdaqNM","desc":"NasdaqNM"},{"value":"INFINITY_EXCHANGE","name":"INFINITY_EXCHANGE","desc":"INFINITY_EXCHANGE"},{"value":"INFIEDGE","name":"INFIEDGE","desc":"INFIEDGE"},{"value":"NGM","name":"NGM","desc":"NGM"}],"symbols_types":[{"name":"All types","value":""},{"name":"Crypto","value":"crypto"},{"name":"Index","value":"index"}],"supported_resolutions":["D","2D","3D","W","3W","M","6M"]}
+    { "supports_search":true,"supports_group_request":false,
+      "supports_marks":true,"supports_timescale_marks":true,
+      "supports_time":true,"exchanges":
+      [{"value":"","name":"All Exchanges","desc":""},
+        {"value":"NasdaqNM","name":"NasdaqNM","desc":"NasdaqNM"},
+        {"value":"NYSE","name":"NYSE","desc":"NYSE"},
+        {"value":"INFIEDGE","name":"INFIEDGE","desc":"INFIEDGE"},
+        {"value":"NGM","name":"NGM","desc":"NGM"}],
+      "symbols_types":[{"name":"All types","value":""},
+        {"name":"Crypto","value":"crypto"},
+        {"name":"Index","value":"index"}],
+    "supported_resolutions":["D","2D","3D","W","3W","M","6M"]}
   ],
   "time": [1646929083],
   "symbols":
@@ -8,7 +19,7 @@
       {"INFIEDGE": 
           {
               "name": "INFIEDGE",
-              "exchange-traded": "INFINITY_EXCHANGE",
+              "exchange-traded": "",
               "timezone": "Europe/Paris",
               "minmov": 1,
               "minmov2": 0,
