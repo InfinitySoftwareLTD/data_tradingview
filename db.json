@@ -4,7 +4,7 @@
   ],
   "symbols": [
     { "symbol": {
-"name": "INFIEDGE",
+"symbol": "INFIEDGE",
 "exchange-traded": "",
 "timezone": "America/New_York",
 "minmov": 1,
